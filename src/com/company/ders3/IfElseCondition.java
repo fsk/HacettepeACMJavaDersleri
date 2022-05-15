@@ -59,7 +59,21 @@ public class IfElseCondition {
 
         System.out.println("*****");
 
+        // & |
+        boolean bir = false;
+
+
+        if (bir | ekranaYaz(5)) {
+            System.out.println("if blogu calisti.");
+        }
 
 
     }
+
+    public static boolean ekranaYaz(int a) {
+        System.out.println("girilen sayi: " + a);
+        return false;
+    }
+
+
 }
